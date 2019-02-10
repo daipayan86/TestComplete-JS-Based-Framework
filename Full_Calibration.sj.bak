@@ -1,0 +1,24 @@
+﻿//USEUNIT _begin
+//USEUNIT _end
+//USEUNIT AmazonCommonFuncs
+//USEUNIT CommonFuncs
+//USEUNIT CommonVars
+//USEUNIT DbConn
+//USEUNIT HTMLReporting
+//USEUNIT Import
+//USEUNIT Library
+//USEUNIT Properties
+//USEUNIT ReportCommonFuncs
+//USEUNIT Repository
+//USEUNIT SysAdminCommonFuncs
+//USEUNIT Unexpected_Window
+//************************************************************************************
+function UID2411() {
+    Properties.TC = "UID2411_962_CaptureConfiguration_UI";
+    CommonFuncs.Begin_test();
+    AmazonCommonFuncs.CloseApplicaton(Properties.APP_NAME);
+    AmazonCommonFuncs.LoadApplication(Properties.APP_NAME);
+    }
+    
+    
+
