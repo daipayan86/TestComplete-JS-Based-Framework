@@ -1,0 +1,25 @@
+﻿<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<TestSteps>
+    <UID xmlns='2319'>
+        <Step1>
+            <Action>Login as admin user User name: admin Password: admin</Action>
+            <Expected>It successfully logs into application.It displays job list screen."</Expected>
+            <Actual>It successfully logs into application.It doesn't displays case list.</Actual>
+        </Step1>
+        <Step2>
+            <Action>Open an existing case. For ex: Case01 and click on Scan stage.</Action>
+            <Expected>Case setup page is displayed and clicking on scan stage navigates to stage overview screen</Expected>
+            <Actual>Case set-up page is not displayed and clicking on scan stage navigates to stage overview screen</Actual>
+        </Step2>
+        <Step3>
+            <Action>Verify for the group icon in the dissection information panel.</Action>
+            <Expected>Group icon is displayed in the dissection information panel.</Expected>
+            <Actual>Group icon is not displayed in the dissection information panel.</Actual>
+        </Step3>
+        <Step4>
+            <Action>Verify Stage overview screen.</Action>
+            <Expected>It displays:Each of the slide positions on the Stage with Slide images  for those with slides present.The Dissection Information PanelThe Stage Overview Tool Bar</Expected>
+            <Actual>It is not displays:Each of the slide positions on the Stage with Slide images  for those with slides present.The Dissection Information PanelThe Stage Overview Tool Bar</Actual>
+        </Step4>
+    </UID>
+</TestSteps>
