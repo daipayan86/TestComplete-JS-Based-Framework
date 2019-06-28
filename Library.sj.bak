@@ -1,8 +1,0 @@
-﻿function Library(){
-//USEUNIT CommonFuncs
-//USEUNIT CommonVars
-//**USEUNIT DbConn
-//USEUNIT Properties
-//USEUNIT ReportCommonFuncs
-
-}
